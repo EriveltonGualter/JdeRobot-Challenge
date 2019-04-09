@@ -1,0 +1,31 @@
+[rospy.client][INFO] 2019-03-24 13:24:14,496: init_node, name[/kuka_arm/spawner], pid[26002]
+[xmlrpc][INFO] 2019-03-24 13:24:14,497: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-03-24 13:24:14,497: Started XML-RPC server [http://erivelton-XPS-13-9370:38529/]
+[rospy.init][INFO] 2019-03-24 13:24:14,497: ROS Slave URI: [http://erivelton-XPS-13-9370:38529/]
+[rospy.impl.masterslave][INFO] 2019-03-24 13:24:14,497: _ready: http://erivelton-XPS-13-9370:38529/
+[rospy.registration][INFO] 2019-03-24 13:24:14,498: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-03-24 13:24:14,498: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-03-24 13:24:14,597: registered with master
+[rospy.rosout][INFO] 2019-03-24 13:24:14,598: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-03-24 13:24:14,603: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-03-24 13:24:14,605: initializing /clock core topic
+[rospy.simtime][INFO] 2019-03-24 13:24:14,610: connected to core topic /clock
+[rosout][INFO] 2019-03-24 13:24:14,617: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2019-03-24 13:24:14,830: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-03-24 13:24:14,977: topic[/clock] adding connection to [http://erivelton-XPS-13-9370:34243/], count 0
+[rosout][INFO] 2019-03-24 13:24:15,824: Controller Spawner: Waiting for service controller_manager/switch_controller
+[rosout][INFO] 2019-03-24 13:24:15,826: Controller Spawner: Waiting for service controller_manager/unload_controller
+[rosout][INFO] 2019-03-24 13:24:15,831: Loading controller: joint_state_controller
+[rosout][INFO] 2019-03-24 13:24:15,841: Loading controller: arm_controller
+[rosout][INFO] 2019-03-24 13:24:15,914: Loading controller: gripper_controller
+[rosout][INFO] 2019-03-24 13:24:15,984: Controller Spawner: Loaded controllers: joint_state_controller, arm_controller, gripper_controller
+[rosout][INFO] 2019-03-24 13:24:15,986: Started controllers: joint_state_controller, arm_controller, gripper_controller
+[rospy.internal][INFO] 2019-03-24 13:31:30,640: topic[/rosout] removing connection to /rosout
+[rospy.core][INFO] 2019-03-24 13:31:36,834: signal_shutdown [signal-2]
+[rosout][INFO] 2019-03-24 13:31:36,835: Shutting down spawner. Stopping and unloading controllers...
+[rosout][INFO] 2019-03-24 13:31:36,835: Stopping all controllers...
+[rosout][WARNING] 2019-03-24 13:31:36,835: Controller Spawner error while taking down controllers: unable to contact master
+[rospy.registration][WARNING] 2019-03-24 13:31:36,836: cannot unregister with master due to network issues
+[rospy.internal][INFO] 2019-03-24 13:31:36,836: topic[/clock] removing connection to http://erivelton-XPS-13-9370:34243/
+[rospy.impl.masterslave][INFO] 2019-03-24 13:31:36,836: signal-2
+[rospy.core][INFO] 2019-03-24 13:31:36,968: signal_shutdown [atexit]
